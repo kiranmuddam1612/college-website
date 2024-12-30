@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    padding-left: 15px;
+    width: 100%;
+    padding-right: 15px;
+}
+.program img{
+   width: 100%;
+   display: block;
+
+}
+.program {
+    flex-basis: 32%;
+    position: relative;
+}
+.override{
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    opacity: 0;
+    background: rgba(8,0,58,0.7);
+}
+.override img{
+    width: 60px;
+}
+.override p{
+    color: aliceblue;
+}
+.program:hover .override{
+opacity: 1;
+}

@@ -1,0 +1,93 @@
+.review{
+    margin: 90px;
+    padding: 20px;
+    position: relative;
+}
+
+.rclick , .lclick{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 40px;
+    transform: translateY(-50%);
+    padding: 10px 10px;
+    cursor: pointer;
+    background: rgba(88,50,98,0.8);
+    border-radius: 50%;
+}
+
+.lclick {
+    left: 0;
+}
+
+.rclick:hover, .lclick:hover {
+    background: lightblue; 
+}
+.changes{
+   overflow: hidden;
+}
+
+.changes ul{
+    width: 200%;
+    overflow-x: hidden;
+    display: flex;
+    transition: all 0.5s ease ;
+}
+.changes ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+.Review-Container{
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border-radius: 15px;
+    line-height: 2;
+}
+.Review-Container img{
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid rgba(45, 45, 95, 0.768);
+}
+.texts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .review {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .rclick, .lclick {
+        width: 30px;
+        padding: 5px;
+    }
+
+    .changes ul {
+        flex-direction: column; /* Stack items vertically */
+        width: 100%; /* Full width */
+    }
+
+    .changes ul li {
+        width: 100%; /* Full width for each item */
+        padding: 10px; /* Reduced padding */
+    }
+
+    .Review-Container {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .Review-Container img {
+        width: 50px; /* Smaller image size */
+    }
+
+    .texts {
+        font-size: 14px; /* Smaller font size */
+    }
+}   
