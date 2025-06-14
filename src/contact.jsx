@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import mess from "../edusity_assets/msg-icon.png"
 import email from "../edusity_assets/mail-icon.png"
 import ph from "../edusity_assets/phone-icon.png"
@@ -7,7 +8,7 @@ import "./contact.css"
 
 const Contact=()=>{
     
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
