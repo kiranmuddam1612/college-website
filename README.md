@@ -4,7 +4,7 @@ This is a responsive educational landing page project built using **React.js**. 
 
 ## 📸 Preview  
 
-you can go and visit the website here:
+you can go and visit the website here:https://about-college.netlify.app/
 
 ---
 
