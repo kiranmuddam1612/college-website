@@ -1,13 +1,8 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
 const Footer = () => {
   return (
-    <div className='foot'>
-       <p>© 2024 Edusity. All rights reserved.</p>
-       <ul>
-        <li>terms of privacy</li>
-        <li>privacy policy</li>
-       </ul>
+     <div className='bg-dark text-white text-center py-3 mt-auto'>
+       <p className='mb-0'>---College Website &copy; 2024---</p>
     </div>
   )
 }

@@ -7,19 +7,18 @@ import About from './about'
 import Reviews from './reviews'
 import Contact from './contact'
 import Footer from './footer'
-
 const App = () => {
   return (
     <div>
       <Navbar/>
       <Image/>
-      <Title titles="Degree provided" sTitle="Program"/>
+      <Title title="Programs Available" subTitle="Program"/>
       <Program/>
       <Title titles="Glance"/>
       <About/>
-      <Title titles="What our student says" sTitle="Reviews"/>
+      <Title title="Our Students" subTitle="Reviews"/>
       <Reviews/>
-      <Title titles="Contact us" sTitle="Any Queries"/>
+      <Title title="Contact us" subTitle="Any Queries"/>
       <Contact/>
       <Footer/>
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./title.css"
-const Title = ({titles,sTitle}) => {
+const Title = ({title,subTitle}) => {
   return (
     <div className='title'>
-        <p>{sTitle}</p>
-      <h2>{titles}</h2>
+        <p>{subTitle}</p>
+      <h2>{title}</h2>
     </div>
   )
 }

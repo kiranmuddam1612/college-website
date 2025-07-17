@@ -1,43 +1,11 @@
-.abouts{
-    width: 90%;
-    margin: 100px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h2 {
+  font-family: 'Times New Roman', Times, serif
 }
-.left{
-    flex-basis: 40%;
-     position: relative;
+
+.text-primary {
+  color: #4e73df !important;
+  
 }
-.right{
-    flex-basis: 55%;
-}
-.imag{
-    width: 90%;
-}
-.icon{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
-.abouts h2{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 2;
-    width: 450px;
-    margin-top: 10px auto;
-   color: rgba(8, 0, 52, 0.6);
-}
-.abouts  h3{
-    font-size: 20px;
-    line-height: 2;
-    color: rgba(88,75,50,0.8);
-}
-.abouts p{
-    font-size: 18px;
-    line-height:2;
-    margin-bottom: 20px auto;
+.img-fluid {
+  box-shadow: none;
 }
